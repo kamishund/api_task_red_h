@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ["git.heroku.com/red-task.git"]
+ALLOWED_HOSTS = ["red-task.herokuapp.com"]
 
 
 # Application definition
