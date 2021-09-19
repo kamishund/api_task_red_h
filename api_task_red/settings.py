@@ -25,7 +25,7 @@ DEBUG = config('DEBUG')
 # SECURITY WARNING: keep the secret key used in production secret!
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['redux-redmine.herokuapp.com']
 
 
 # Application definition
