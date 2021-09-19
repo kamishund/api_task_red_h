@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ["red-task.herokuapp.com"]
+ALLOWED_HOSTS = ["red-task.herokuapp.com",'127.0.0.1:8000']
 
 
 # Application definition
